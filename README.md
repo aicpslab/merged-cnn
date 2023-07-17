@@ -9,5 +9,5 @@
 # Features
 1) This tool can compute the discrepancy between two convolution neural networks. In the example, the VGG16 structure is used to build the original network, and the network is trained with CIFAR10 dataset. The compression network is compressed with the quantization method (QAT in PyTorch). The computed error range between the original network and the compression network can be used to verify the robustness of the compression network.
 <figure>
-  <img src="/results/fig exp2.pdf" width="600"> <figcaption>Original network output and guarantee output range of quantization network.</figcaption>
+  <img src="/results/fig exp2.png" width="600"> <figcaption>Original network output and guarantee output range of quantization network.</figcaption>
 </figure>
